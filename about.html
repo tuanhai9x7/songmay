@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ROBOTO FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BS5  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- VENOBOX   -->
+    <link rel="stylesheet" href="./lib/venobox/venobox.min.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Song May</title>
+  </head>
+  <body>
+    <div class="about-wrapper">
+      <header class="header-block">
+        <div class="container">
+          <div class="header-container">
+            <div class="menu-list menu-left">
+              <div class="menu-item">
+                <a href="./index.html" class="menu-link">Trang chủ</a>
+              </div>
+              <div class="menu-item">
+                <a href="./about.html" class="menu-link">Giới thiệu</a>
+              </div>
+              <div class="menu-item">
+                <a href="./#!" class="menu-link">Học viện âm nhạc</a>
+              </div>
+            </div>
+            <a href="./index.html" class="header-logo">
+              <img srcset="./img/header-logo.png 2x" alt="" />
+            </a>
+            <div class="menu-list menu-right">
+              <div class="menu-item">
+                <a href="#!" class="menu-link">Nhạc cụ</a>
+              </div>
+              <div class="menu-item">
+                <a href="#!" class="menu-link">Sản xuất âm nhạc</a>
+              </div>
+              <div class="menu-item">
+                <a href="#!" class="menu-link">Tin tức</a>
+              </div>
+              <div class="menu-item">
+                <a href="#!" class="menu-link">Liên hệ</a>
+              </div>
+            </div>
+            <div class="menu-toggle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="banner-block">
+        <div class="container">
+          <div class="banner-container">
+            <div class="banner-img">
+              <svg
+                width="302"
+                height="430"
+                viewBox="0 0 302 430"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M52.2706 163.799V198.985H40.507V197.162C38.6695 198.912 36.6489 199.793 34.4635 199.793C31.9789 199.793 29.6591 199.328 27.5042 198.398C25.3493 197.468 23.463 196.208 21.8452 194.624C20.2641 193.003 19.0005 191.106 18.0604 188.941C17.1203 186.776 16.6502 184.139 16.6502 181.044C16.6502 178.554 17.1203 176.23 18.0604 174.07C19.0005 171.911 20.258 170.039 21.8452 168.455C23.0967 167.292 24.4885 166.277 26.0147 165.396C27.5408 164.521 29.1158 163.891 30.7335 163.512C32.3513 163.133 34.03 163.157 35.7576 163.579C37.4852 164.001 39.0724 164.797 40.507 165.959V163.799H52.2706ZM36.7832 159.04L29.9399 162.166L27.6751 159.621L36.7832 152.703L45.8363 159.621L43.5715 162.166L36.7832 159.04ZM34.6832 166.76C30.6176 166.76 28.5847 168.705 28.5847 172.596V189.467C28.5847 193.969 30.5443 196.214 34.4635 196.214C38.1262 195.866 40.1407 194.141 40.507 191.045V172.235C40.1774 168.583 38.2361 166.76 34.6832 166.76Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M95.2532 171.458C95.2532 168.32 94.1055 166.754 91.8041 166.754C89.5393 166.754 88.4099 168.185 88.4099 171.042V198.979H76.4876V171.458C76.4876 168.32 75.4315 166.754 73.3132 166.754C71.2315 166.754 70.0289 168.204 69.6993 171.097V198.979H57.9296V163.793H69.6871V165.843C71.4513 164.038 73.8077 163.071 76.7562 162.949C79.6986 162.827 81.9207 163.206 83.4102 164.081C84.8998 164.956 85.9009 166.106 86.4198 167.525C87.2867 165.867 88.4526 164.711 89.9239 164.05C91.3951 163.396 93.4828 163.09 96.1933 163.127C98.9892 163.2 101.504 164.142 103.732 165.947C106.034 167.788 107.182 170.926 107.182 175.355V198.979H95.2593V171.458H95.2532Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M144.334 171.458C144.334 168.32 142.997 166.754 140.33 166.754C137.68 166.754 136.191 168.204 135.855 171.097V198.979H124.097V163.793H135.855V165.396C138.083 163.922 140.812 163.127 144.053 163.016C147.368 162.851 150.225 163.64 152.636 165.384C155.048 167.127 156.25 170.449 156.25 175.355V198.979H144.328V171.458H144.334Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M182.152 171.458C182.152 168.32 180.815 166.754 178.148 166.754C175.498 166.754 174.009 168.204 173.673 171.097V198.979H161.916V151.4H173.673V165.396C175.901 163.922 178.63 163.127 181.871 163.016C185.186 162.851 188.043 163.64 190.455 165.384C192.866 167.127 194.069 170.449 194.069 175.355V198.979H182.146V171.458H182.152Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M232.173 163.799V198.985H220.416V197.162C218.578 198.912 216.558 199.793 214.372 199.793C211.888 199.793 209.568 199.328 207.413 198.398C205.258 197.468 203.372 196.208 201.754 194.624C200.173 193.003 198.909 191.106 197.969 188.941C197.029 186.775 196.559 184.139 196.559 181.044C196.559 178.554 197.029 176.23 197.969 174.07C198.909 171.911 200.167 170.039 201.754 168.455C203.006 167.292 204.397 166.277 205.924 165.396C207.45 164.521 209.025 163.891 210.642 163.512C212.26 163.133 213.939 163.157 215.667 163.579C217.394 164.001 218.981 164.797 220.416 165.959V163.799H232.173ZM214.586 166.76C210.52 166.76 208.487 168.705 208.487 172.596V189.467C208.487 193.969 210.447 196.214 214.366 196.214C218.029 195.866 220.044 194.141 220.41 191.045V172.235C220.08 168.583 218.139 166.76 214.586 166.76ZM219.366 201.695V209.054H211.998V201.695H219.366Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M265.688 192.452C263.624 195.437 261.701 197.407 259.919 198.343C258.191 199.303 256.061 199.781 253.54 199.781C251.055 199.781 248.747 199.316 246.611 198.386C244.474 197.456 242.6 196.196 240.976 194.612C239.395 193.027 238.144 191.168 237.222 189.039C236.3 186.91 235.842 184.543 235.842 181.943C235.842 179.361 236.105 177.239 236.63 175.581C237.155 173.923 237.894 172.37 238.852 170.932C240.836 168.075 243.436 165.947 246.635 164.54C248.57 163.598 250.719 163.127 253.094 163.127H255.908H257.038C257.611 163.127 257.947 163.145 258.057 163.182C259.217 163.182 260.743 162.729 262.642 161.824L266.42 169.403L262.642 171.507C260.487 168.296 257.379 166.693 253.314 166.693C249.395 166.693 247.435 168.895 247.435 173.306V190.427C247.435 194.281 249.468 196.227 253.534 196.263C257.27 196.263 260.23 194.483 262.422 190.923L265.688 192.452Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M12.7311 243.023V260.811H0.973618V211.574H12.7311V238.215L25.3493 225.681H30.2635L21.4851 234.477L31.2281 260.811H18.4999L12.7311 243.023Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M43.4556 243.934V252.205C43.4556 256.095 45.6044 258.114 49.9021 258.261C54.1997 258.407 58.0761 255.783 61.5374 250.376L66.1769 252.15C64.022 255.471 61.4459 257.9 58.4485 259.453C55.4695 260.964 52.6125 261.705 49.8898 261.668C45.8242 261.594 42.369 260.567 39.5242 258.585C36.6795 256.603 34.5429 254.009 33.1083 250.798C32.2048 248.602 31.7531 246.124 31.7531 243.359C31.7531 240.576 32.2048 238.105 33.1083 235.945C33.792 234.361 34.6772 232.899 35.7699 231.559C36.8626 230.226 38.1141 229.07 39.5242 228.103C40.9344 227.137 42.485 226.378 44.1881 225.834C45.8913 225.289 47.68 225.02 49.5602 225.02C52.0448 225.02 54.3645 225.491 56.5133 226.433C58.6683 227.375 60.5363 228.654 62.1174 230.281C65.3223 233.456 66.9217 238.007 66.9217 243.946H43.4556V243.934ZM49.3954 220.866L42.5521 223.992L40.2873 221.448L49.3954 214.529L58.4485 221.448L56.1837 223.992L49.3954 220.866ZM43.8158 215.832L41.7707 213.342L54.4988 206.87L57.893 211.128L43.8158 215.832ZM49.3404 228.586C45.4213 228.586 43.4617 230.825 43.4617 235.309V239.628H55.445V234.428C55.4389 230.532 53.4061 228.586 49.3404 228.586Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M83.4286 254.284C83.4286 256.15 83.8437 257.27 84.6678 257.649C85.498 258.028 86.2306 258.108 86.8777 257.881C87.5187 257.606 87.9155 257.147 88.062 256.511C88.2085 255.875 87.9765 255.306 87.3721 254.811L92.7015 252.761C92.9212 256.358 92.03 258.701 90.0215 259.79C88.0681 260.842 85.437 261.313 82.1283 261.203C78.8501 261.093 76.2923 260.224 74.4426 258.603C72.5929 256.982 71.6711 254.058 71.6711 249.837V229.143H68.3319V225.632H71.6711V220.652C74.0092 220.652 76.1152 219.765 77.9955 217.997C79.8879 216.175 80.8036 214.034 80.7303 211.581H83.4347V225.632H89.1486V229.143H83.4347V254.284H83.4286Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M126.802 233.284C126.802 230.146 125.465 228.58 122.797 228.58C120.148 228.58 118.658 230.03 118.322 232.923V260.805H106.565V225.619H118.322V227.222C120.551 225.748 123.279 224.953 126.521 224.843C129.836 224.677 132.693 225.467 135.104 227.21C137.515 228.953 138.718 232.275 138.718 237.181V260.805H126.796V233.284H126.802Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M142.399 243.298C142.399 240.662 142.857 238.221 143.779 235.97C144.701 233.719 145.958 231.786 147.564 230.158C149.163 228.537 151.049 227.271 153.223 226.366C155.396 225.46 157.722 225.008 160.206 225.008C162.654 225.081 164.962 225.558 167.135 226.445C169.308 227.332 171.195 228.574 172.794 230.177C174.393 231.779 175.663 233.7 176.603 235.933C177.543 238.166 178.013 240.619 178.013 243.292C178.013 246.02 177.543 248.498 176.603 250.718C175.663 252.939 174.393 254.847 172.794 256.432C171.195 258.016 169.308 259.264 167.135 260.181C164.962 261.093 162.654 261.57 160.206 261.607C157.722 261.57 155.396 261.093 153.223 260.181C151.049 259.27 149.163 258.022 147.564 256.432C145.964 254.847 144.701 252.939 143.779 250.718C142.857 248.504 142.399 246.032 142.399 243.298ZM160.035 220.866L153.192 223.992L150.927 221.448L160.035 214.529L169.088 221.448L166.824 223.992L160.035 220.866ZM154.627 215.832L152.582 213.342L165.31 206.87L168.704 211.128L154.627 215.832ZM159.98 228.586C156.061 228.586 154.102 230.825 154.102 235.309V252.211C154.102 256.065 156.134 258.01 160.2 258.047C164.119 258.047 166.079 255.795 166.079 251.299V234.428C166.079 230.532 164.046 228.586 159.98 228.586Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M193.44 211.574V221.258H181.682V211.574H193.44ZM181.676 260.811V225.626H193.434V260.811H181.676Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M64.2906 315.419C64.2906 317.285 64.7057 318.405 65.5298 318.784C66.36 319.163 67.0926 319.243 67.7397 319.016C68.3807 318.741 68.7775 318.282 68.924 317.646C69.0705 317.01 68.8385 316.441 68.2342 315.946L73.5635 313.896C73.7832 317.493 72.892 319.836 70.8836 320.925C68.9301 321.977 66.299 322.448 62.9903 322.338C59.7121 322.228 57.1543 321.359 55.3046 319.738C53.4549 318.117 52.5331 315.193 52.5331 310.972V290.278H49.1939V286.767H52.5331V281.787C54.8712 281.787 56.9773 280.9 58.8575 279.132C60.7499 277.31 61.6656 275.169 61.5923 272.716H64.2967V286.767H70.0106V290.278H64.2967V315.419H64.2906Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M109.758 286.761V321.946H98.0002V320.124C96.1628 321.873 94.1421 322.754 91.9567 322.754C89.4721 322.754 87.1524 322.289 84.9974 321.359C82.8425 320.429 80.9562 319.169 79.3385 317.585C77.7574 315.964 76.4937 314.068 75.5536 311.902C74.6135 309.737 74.1434 307.1 74.1434 304.005C74.1434 301.515 74.6135 299.191 75.5536 297.037C76.4937 294.878 77.7513 293.006 79.3385 291.422C80.5899 290.26 81.9817 289.244 83.5079 288.363C85.0341 287.488 86.609 286.858 88.2268 286.479C89.8445 286.1 91.5233 286.124 93.2509 286.546C94.9785 286.969 96.5657 287.764 98.0002 288.926V286.767H109.758V286.761ZM94.2703 282.001L87.4271 285.127L85.1623 282.583L94.2703 275.664L103.323 282.583L101.059 285.127L94.2703 282.001ZM92.1703 289.721C88.1047 289.721 86.0718 291.666 86.0718 295.557V312.428C86.0718 316.93 88.0314 319.175 91.9506 319.175C95.6133 318.827 97.6279 317.102 97.9941 314.006V295.196C97.6645 291.55 95.7232 289.721 92.1703 289.721Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M152.734 294.425C152.734 291.287 151.586 289.721 149.285 289.721C147.02 289.721 145.891 291.153 145.891 294.009V321.946H133.969V294.425C133.969 291.287 132.912 289.721 130.794 289.721C128.712 289.721 127.51 291.171 127.18 294.064V321.946H115.423V286.761H127.18V288.81C128.944 287.005 131.301 286.039 134.249 285.916C137.192 285.794 139.414 286.173 140.903 287.048C142.393 287.923 143.394 289.073 143.913 290.492C144.78 288.834 145.946 287.678 147.417 287.017C148.888 286.363 150.976 286.051 153.686 286.088C156.482 286.161 158.997 287.103 161.226 288.908C163.527 290.749 164.675 293.887 164.675 298.316V321.94H152.734V294.425Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M201.821 294.425C201.821 291.287 200.484 289.721 197.817 289.721C195.167 289.721 193.678 291.171 193.342 294.064V321.946H181.585V274.367H193.342V288.363C195.57 286.889 198.299 286.094 201.54 285.984C204.855 285.818 207.712 286.608 210.124 288.351C212.535 290.094 213.738 293.416 213.738 298.322V321.946H201.815V294.425H201.821Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M216.228 304.439C216.228 301.803 216.686 299.356 217.608 297.111C218.53 294.86 219.787 292.927 221.393 291.299C222.992 289.678 224.878 288.412 227.052 287.513C229.225 286.608 231.551 286.155 234.035 286.155C236.483 286.228 238.791 286.712 240.964 287.592C243.137 288.479 245.024 289.721 246.623 291.33C248.222 292.933 249.492 294.854 250.432 297.08C251.372 299.313 251.842 301.766 251.842 304.439C251.842 307.167 251.372 309.645 250.432 311.865C249.492 314.086 248.222 315.994 246.623 317.579C245.024 319.163 243.137 320.411 240.964 321.329C238.791 322.24 236.483 322.717 234.035 322.754C231.551 322.717 229.225 322.24 227.052 321.329C224.878 320.417 222.992 319.169 221.393 317.579C219.793 315.994 218.53 314.086 217.608 311.865C216.692 309.645 216.228 307.167 216.228 304.439ZM233.87 282.001L227.027 285.127L224.762 282.583L233.87 275.664L242.924 282.583L240.659 285.127L233.87 282.001ZM226.551 272.93L229.78 268.617L242.728 275.144L240.683 277.634L226.551 272.93ZM233.816 289.721C229.896 289.721 227.937 291.96 227.937 296.444V313.346C227.937 317.2 229.97 319.145 234.035 319.182C237.954 319.182 239.914 316.93 239.914 312.434V295.563C239.914 291.667 237.881 289.721 233.816 289.721Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M275.748 294.425C275.748 291.287 274.411 289.721 271.744 289.721C269.094 289.721 267.605 291.171 267.269 294.064V321.946H255.511V286.761H267.269V288.363C269.497 286.889 272.226 286.094 275.467 285.984C278.782 285.818 281.639 286.608 284.05 288.351C286.462 290.094 287.664 293.416 287.664 298.322V321.946H275.742V294.425H275.748Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M181.377 334.829C181.365 337.717 181.359 340.604 181.346 343.485C181.346 343.516 181.316 343.883 181.346 343.895C166.537 336.518 143.913 337.857 122.596 348.96C92.9823 364.393 77.1897 392.728 87.3233 412.26C97.457 431.786 123.072 436.062 152.685 420.629C177.403 407.752 193.623 385.822 193.513 367.654V334.823H181.377V334.829Z"
+                  fill="#524F8D"
+                />
+                <path
+                  d="M225.098 76.2445C213.359 70.4943 205.728 59.3978 201.547 47.2858C199.813 42.2636 198.616 37.0518 197.853 31.7972C197.511 29.4421 197.365 13.513 197.212 11.1395C197.09 9.18814 197.261 6.87586 196.584 5.02236C195.295 1.49887 187.884 -0.550379 184.423 0.458953C181.743 1.24195 181.725 4.70426 181.884 6.9615C182.122 10.4116 182.14 27.3806 182.128 30.849C182.103 37.8348 182.079 44.8145 182.055 51.8003C182.024 60.9393 181.994 70.0723 181.963 79.2113C181.926 89.7389 181.89 100.267 181.853 110.794C181.816 121.04 181.786 131.287 181.749 141.527H193.507V106.145C201.015 105.913 208.414 107.632 215.416 110.482C230.208 115.345 249.279 125.647 262.013 147.424C262.764 148.347 263.16 148.867 263.16 148.867C296.894 208.4 248.051 260.096 248.051 260.096C244.425 271.339 251.836 268.966 251.836 268.966C271.182 257.282 287.792 228.03 287.792 228.03C339.547 141.392 225.098 76.2445 225.098 76.2445Z"
+                  fill="#524F8D"
+                />
+              </svg>
+            </div>
+            <div class="banner-main">
+              <h2 class="title">Trường nhạc Song May</h2>
+              <div class="desc">
+                <p>
+                  Trường nhạc Việt Thanh là thành viên thuộc Hệ thống giáo dục
+                  âm nhạc Việt Thương, một trong những trường dạy nhạc có uy tín
+                  tại Việt Nam. Chúng tôi tổ chức và cung cấp các chương trình
+                  đào tạo âm nhạc đặc biệt (tại trường và tại nhà) cho các học
+                  viên từ 3 tuổi trở lên. Với kinh nghiệm đào tạo và kiến thức
+                  chuyên môn sâu của đội ngũ giáo viên, giảng dạy theo hình thức
+                  mới giúp học viên cảm nhận âm nhạc và thể hiện theo phong cách
+                  riêng của mình, chúng tôi cam kết mang lại kết quả tốt nhất
+                  cho học viên sau các khóa học.
+                </p>
+
+                <p>
+                  Với sự đa dạng của các nhạc cụ và các trang thiết bị hỗ trợ
+                  giảng dạy hiện đại, Việt Thanh luôn mang đến cho học viên sự
+                  thoải mái, vui vẻ trong suốt quá trình. Sự khác biệt của Việt
+                  Thanh là giảng dạy bằng bộ giáo trình Kawai hấp dẫn, đã được
+                  nghiên cứu và biên soạn bởi các chuyên gia âm nhạc của trường
+                  nhạc Kawai- Nhật Bản, thiết kế theo tâm lý của trẻ từ 3-5
+                  tuổi. Áp dụng thành công trên 50 năm tại Nhật Bản. Hiện tại có
+                  cũng có nhiều nước đang áp dụng giáo trình này như: Hong Kong,
+                  China, Singapore, Indonesia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-block">
+        <div class="container">
+          <div class="about-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="video-item swiper-slide">
+                <a
+                  class="play-btn"
+                  data-autoplay="true"
+                  data-vbtype="video"
+                  data-ratio="1x1"
+                  data-maxwidth="400px"
+                  href="https://youtu.be/bLlALQv_PIE"
+                  ><i class="fa-solid fa-play"></i
+                ></a>
+                <div class="video-poster">
+                  <img srcset="./img/about-poster2.jpg 2x" alt="" />
+                </div>
+              </div>
+              <div class="video-item swiper-slide">
+                <a
+                  class="play-btn"
+                  data-autoplay="true"
+                  data-vbtype="video"
+                  data-ratio="1x1"
+                  data-maxwidth="400px"
+                  href="https://youtu.be/bLlALQv_PIE"
+                  ><i class="fa-solid fa-play"></i
+                ></a>
+                <div class="video-poster">
+                  <img srcset="./img/about-poster.jpg 2x" alt="" />
+                </div>
+              </div>
+              <div class="video-item swiper-slide">
+                <a
+                  class="play-btn"
+                  data-autoplay="true"
+                  data-vbtype="video"
+                  data-ratio="1x1"
+                  data-maxwidth="400px"
+                  href="https://youtu.be/bLlALQv_PIE"
+                  ><i class="fa-solid fa-play"></i
+                ></a>
+                <div class="video-poster">
+                  <img srcset="./img/about-poster2.jpg 2x" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="desc">
+              <p>
+                Trường nhạc Việt Thanh rất vui mừng có được sự tin tưởng của
+                nhiều phụ huynh và học viên. Nhằm đáp ứng nhu cầu của học viên
+                và hỗ trợ cho các học viên ở xa, trường đã mở thêm một cơ sở 2
+                với phòng học tiện nghi và trang thiết bị hiện đại.
+              </p>
+
+              <p>
+                Trường sẽ tiếp tục tiếp thu những ý kiến đóng góp của học viên
+                để ngày càng hoàn thiện hơn, phục vụ tốt nhất cho học viên.
+              </p>
+            </div>
+            <div class="list">
+              <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Cung cấp các loại đàn Piano, Organ, Guitar</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Thu âm</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Phối nhạc</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Sáng tác nhạc cho doanh nghiệp</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">Học viên nói về Song May</h2>
+          </div>
+          <div class="testimonials-main">
+            <div class="testimonials-item">
+              <div class="content">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Âm nhạc đã làm thức tỉnh những ước mơ hoài bão của tôi trước
+                  giờ vẫn còn ngủ quên. Tâm hồn tôi được nuôi dưỡng và từ đó cảm
+                  nhận được sự muôn mầu của vạn vật xung quanh mà trước đây tôi
+                  không bao giờ để ý.
+                </p>
+              </div>
+              <div class="author">
+                <span>Huy Phạm</span> - Học viên lớp Piano
+              </div>
+            </div>
+            <div class="testimonials-item">
+              <div class="content">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>
+                  Âm nhạc đã làm thức tỉnh những ước mơ hoài bão của tôi trước
+                  giờ vẫn còn ngủ quên. Tâm hồn tôi được nuôi dưỡng và từ đó cảm
+                  nhận được sự muôn mầu của vạn vật xung quanh mà trước đây tôi
+                  không bao giờ để ý.
+                </p>
+              </div>
+              <div class="author">
+                <span>Huy Phạm</span> - Học viên lớp Piano
+              </div>
+            </div>
+          </div>
+          <div class="statistic">
+            <div class="item">
+              <div class="number">+500</div>
+              <div class="text">học viên</div>
+            </div>
+            <div class="item">
+              <div class="number">+10</div>
+              <div class="text">năm kinh nghiệm</div>
+            </div>
+            <div class="item">
+              <div class="number">+30</div>
+              <div class="text">giảng viên</div>
+            </div>
+            <div class="item">
+              <div class="number">15</div>
+              <div class="text">khóa học phù hợp</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news-block">
+        <div class="container">
+          <div class="heading-box">
+            <h2 class="title">Tin tức</h2>
+          </div>
+          <div class="news-main">
+            <div class="news-item">
+              <div class="img">
+                <a href="#!">
+                  <img srcset="./img/news1.jpg 2x" alt="" />
+                </a>
+              </div>
+              <div class="content">
+                <h4 class="title">
+                  <a href="#!">
+                    Ngày hội nhạc cụ và âm nhạc lớn nhất trong năm đã quay trở
+                    lại
+                  </a>
+                </h4>
+                <div class="desc">
+                  Mật ong từ lâu đã được coi là nguồn dinh dưỡng quý giá mà
+                  thiên nhiên ban...
+                </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="img">
+                <a href="#!">
+                  <img srcset="./img/news2.jpg 2x" alt="" />
+                </a>
+              </div>
+              <div class="content">
+                <h4 class="title">
+                  <a href="#!">
+                    Ngày hội nhạc cụ và âm nhạc lớn nhất trong năm đã quay trở
+                    lại
+                  </a>
+                </h4>
+                <div class="desc">
+                  Mật ong từ lâu đã được coi là nguồn dinh dưỡng quý giá mà
+                  thiên nhiên ban...
+                </div>
+              </div>
+            </div>
+            <div class="news-item">
+              <div class="img">
+                <a href="#!">
+                  <img srcset="./img/news3.jpg 2x" alt="" />
+                </a>
+              </div>
+              <div class="content">
+                <h4 class="title">
+                  <a href="#!">
+                    Ngày hội nhạc cụ và âm nhạc lớn nhất trong năm đã quay trở
+                    lại
+                  </a>
+                </h4>
+                <div class="desc">
+                  Mật ong từ lâu đã được coi là nguồn dinh dưỡng quý giá mà
+                  thiên nhiên ban...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="register-block">
+        <div class="register-img">
+          <img srcset="./img/register-img.png 2x" alt="" />
+        </div>
+        <div class="container">
+          <div class="register-container">
+            <div class="register-main">
+              <h3 class="title">Đăng ký học tại Song May</h3>
+              <div class="desc">
+                Hãy đến với Song May để xóa tan tất cả những nghi ngờ, lo ngại
+                của bạn và bước vào thế giới kỳ diệu của âm nhạc nhé.
+              </div>
+              <a href="#!" class="btn btn-white register-btn"
+                >Đăng ký học ngay</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-block">
+        <div class="container">
+          <h3 class="company">Công ty Cổ phần Âm nhạc Song May</h3>
+          <div class="agency-list">
+            <div class="agency-item">
+              <h4 class="title">Chi nhánh 1:</h4>
+              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+              <div class="phone-number">SDT: 0888.999.464</div>
+            </div>
+            <div class="agency-item">
+              <h4 class="title">Chi nhánh 1:</h4>
+              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+              <div class="phone-number">SDT: 0888.999.464</div>
+            </div>
+            <div class="agency-item">
+              <h4 class="title">Chi nhánh 1:</h4>
+              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+              <div class="phone-number">SDT: 0888.999.464</div>
+            </div>
+            <div class="agency-item">
+              <h4 class="title">Chi nhánh 1:</h4>
+              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+              <div class="phone-number">SDT: 0888.999.464</div>
+            </div>
+            <div class="agency-item">
+              <h4 class="title">Chi nhánh 1:</h4>
+              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+              <div class="phone-number">SDT: 0888.999.464</div>
+            </div>
+          </div>
+          <div class="copy-right">
+            <span>Công ty Cổ phần Âm nhạc Song May © 2022 -</span>
+            <div class="link-list">
+              <a href="#!">Học viện</a>
+              <span>/</span>
+              <a href="#!">Nhạc cụ</a>
+              <span>/</span>
+              <a href="#!">Sản xuất âm nhạc</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="menu-mb">
+        <span class="close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.97675 22.0001C2.78357 22.0002 2.59473 21.9429 2.4341 21.8356C2.27347 21.7283 2.14828 21.5758 2.07435 21.3973C2.00042 21.2188 1.98108 21.0225 2.01877 20.833C2.05647 20.6435 2.14951 20.4695 2.28612 20.3329L20.333 2.28607C20.5162 2.1029 20.7646 2 21.0236 2C21.2827 2 21.5311 2.1029 21.7143 2.28607C21.8974 2.46923 22.0003 2.71766 22.0003 2.97669C22.0003 3.23573 21.8974 3.48415 21.7143 3.66732L3.66737 21.7142C3.57676 21.805 3.4691 21.877 3.35059 21.9261C3.23207 21.9751 3.10502 22.0003 2.97675 22.0001Z"
+              fill="#ffcf4b"
+            ></path>
+            <path
+              d="M21.0236 22.0001C20.8953 22.0003 20.7683 21.9751 20.6498 21.9261C20.5313 21.877 20.4236 21.805 20.333 21.7142L2.28613 3.66732C2.10296 3.48415 2.00006 3.23573 2.00006 2.97669C2.00006 2.71766 2.10296 2.46923 2.28613 2.28607C2.46929 2.1029 2.71772 2 2.97675 2C3.23579 2 3.48421 2.1029 3.66738 2.28607L21.7142 20.3329C21.8509 20.4695 21.9439 20.6435 21.9816 20.833C22.0193 21.0225 21.9999 21.2188 21.926 21.3973C21.8521 21.5758 21.7269 21.7283 21.5663 21.8356C21.4056 21.9429 21.2168 22.0002 21.0236 22.0001V22.0001Z"
+              fill="#ffcf4b"
+            ></path>
+          </svg>
+        </span>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Trang chủ</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Giới thiệu</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Học viện âm nhạc</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Nhạc cụ</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Sản xuất âm nhạc</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Tin tức</a>
+        </div>
+        <div class="menu-item">
+          <a href="#!" class="menu-link">Liên hệ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FONT AWESOME5  -->
+    <script
+      src="https://kit.fontawesome.com/6a7d2aab8b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BS5  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var aboutSwiper = new Swiper(".about-swiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        spaceBetween: 20,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        // freeMode: true,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+          modifier: 1,
+          slideShadows: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: "auto",
+          },
+        },
+      });
+    </script>
+
+    <!-- VENOBOX  -->
+    <script src="./lib/venobox/venobox.min.js"></script>
+    <script>
+      new VenoBox({
+        selector: ".play-btn",
+      });
+    </script>
+
+    <!-- MAIN JS  -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
