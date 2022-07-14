@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wg ht@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -19,6 +19,12 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 
     <!-- MAIN CSS -->
@@ -66,6 +72,88 @@
           </div>
         </div>
       </header>
+      <section class="product-detail-block">
+        <div class="container">
+          <div class="product-detail-container">
+            <div class="product-slide">
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img srcset="./img/product1.png 2x" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img srcset="./img/product2.png 2x" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img srcset="./img/product1.png 2x" />
+                  </div>
+                </div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img srcset="./img/product1.png 2x" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img srcset="./img/product2.png 2x" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img srcset="./img/product1.png 2x" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-main">
+              <h3 class="product-title">Piano Kawai US6X</h3>
+              <div class="desc">
+                Thương hiệu: Kawai | Loại: Upright Piano | SKU 7788831176493
+              </div>
+              <div class="price">80.000.000 đ</div>
+              <div class="promotion">
+                <h4 class="title">Khuyến mãi</h4>
+                <ul>
+                  <li>Tặng gói bảo hành chính hãng 2 năm tại gia</li>
+
+                  <li>Vận chuyển giao hàng tận nơi</li>
+
+                  <li>
+                    Tặng bộ phụ kiện : Ghế piano, khăn phủ phím, giáo trình
+                    piano online
+                  </li>
+                </ul>
+              </div>
+              <div class="desc">
+                Thương hiệu: Đức<br />
+                Mã sản phẩm : Bremen BM363<br />
+                Tình trạng : Hàng MỚI 100%<br />
+                Bảo hành : 24 tháng<br />
+                Piano Bremen BM363 đi kèm với 300 âm thanh và 100 kiểu nhịp điệu
+                khác nhau. Cùng nhau, chúng có thể mang lại cho bạn những khả
+                năng và niềm vui vô hạn
+              </div>
+              <div id="quantity" class="quantity">
+                <button class="decrease-btn">-</button>
+                <input type="number" id="myNumber" min="1" value="1" />
+                <button class="increase-btn">+</button>
+              </div>
+              <div class="button-group">
+                <a href="#!" class="btn btn-blue cart-btn">
+                  <span class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </span>
+                  <span class="text">Thêm vào giỏ hàng</span>
+                </a>
+                <a href="#!" class="btn btn-yellow buy-btn">
+                  <span class="icon">
+                    <i class="fa-solid fa-money-bill"></i>
+                  </span>
+                  <span class="text">Mua ngay</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="product-related-block">
         <div class="container">
           <h4 class="sub-title">Sản phẩm tương tự</h4>
@@ -260,42 +348,54 @@
       </section>
       <footer class="footer-block">
         <div class="container">
-          <h3 class="company">Công ty Cổ phần Âm nhạc Song May</h3>
-          <div class="agency-list">
-            <div class="agency-item">
-              <h4 class="title">Chi nhánh 1:</h4>
-              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
-              <div class="phone-number">SDT: 0888.999.464</div>
+          <div class="footer-container">
+            <div class="footer-left">
+              <h4 class="title">Công ty Cổ phần Âm nhạc Song May</h4>
+              <div class="agency-list">
+                <div class="agency-item">
+                  <h4>Chi nhánh 1:</h4>
+                  <div>Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+                  <div>SDT: 0888.999.464</div>
+                </div>
+                <div class="agency-item">
+                  <h4>Chi nhánh 1:</h4>
+                  <div>
+                    Địa chỉ: 90 Bành Văn Trân, Phường 7, Quận Tân Bình, TPHCM
+                  </div>
+                  <div>SDT: 0888.999.464</div>
+                </div>
+                <div class="agency-item">
+                  <h4>Chi nhánh 1:</h4>
+                  <div>Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+                  <div>SDT: 0888.999.464</div>
+                </div>
+                <div class="agency-item">
+                  <h4>Chi nhánh 1:</h4>
+                  <div>Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+                  <div>SDT: 0888.999.464</div>
+                </div>
+                <div class="agency-item">
+                  <h4>Chi nhánh 1:</h4>
+                  <div>Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
+                  <div>SDT: 0888.999.464</div>
+                </div>
+              </div>
             </div>
-            <div class="agency-item">
-              <h4 class="title">Chi nhánh 1:</h4>
-              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
-              <div class="phone-number">SDT: 0888.999.464</div>
-            </div>
-            <div class="agency-item">
-              <h4 class="title">Chi nhánh 1:</h4>
-              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
-              <div class="phone-number">SDT: 0888.999.464</div>
-            </div>
-            <div class="agency-item">
-              <h4 class="title">Chi nhánh 1:</h4>
-              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
-              <div class="phone-number">SDT: 0888.999.464</div>
-            </div>
-            <div class="agency-item">
-              <h4 class="title">Chi nhánh 1:</h4>
-              <div class="address">Địa chỉ: 179 Trần Não, Quận 2, TP.HCM</div>
-              <div class="phone-number">SDT: 0888.999.464</div>
-            </div>
-          </div>
-          <div class="copy-right">
-            <span>Công ty Cổ phần Âm nhạc Song May © 2022 -</span>
-            <div class="link-list">
-              <a href="#!">Học viện</a>
-              <span>/</span>
-              <a href="#!">Nhạc cụ</a>
-              <span>/</span>
-              <a href="#!">Sản xuất âm nhạc</a>
+            <div class="footer-right">
+              <h4 class="title">Theo dõi chúng tôi trên MXH</h4>
+              <div class="social-list">
+                <a href="#!" class="social-item"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#!" class="social-item"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+              <ul class="category">
+                <li><a href="#!">SongMay Shop</a></li>
+                <li><a href="#!">SongMay Music School</a></li>
+                <li><a href="#!">SongMay Hà Nội</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -356,7 +456,45 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 12,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        grabCursor: true,
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+
     <!-- MAIN JS  -->
     <script src="./js/app.js"></script>
+    <script>
+      (() => {
+        const quantity = document.getElementById("quantity");
+        const myNumber = document.getElementById("myNumber");
+        const decreaseBtn = quantity.querySelector(".decrease-btn");
+        const increaseBtn = quantity.querySelector(".increase-btn");
+        if (decreaseBtn) {
+          decreaseBtn.addEventListener("click", () => {
+            if (myNumber) myNumber.stepDown(1);
+          });
+        }
+        if (increaseBtn) {
+          increaseBtn.addEventListener("click", () => {
+            if (myNumber) myNumber.stepUp(1);
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
